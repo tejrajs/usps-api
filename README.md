@@ -42,6 +42,7 @@ USPS Address Verify
 ```php
 <?php
 use tejrajs\uspsapi\USPSAddressVerify; 
+use tejrajs\uspsapi\USPSAddress; 
 
 $verify = new USPSAddressVerify('xxxx');
 
