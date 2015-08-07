@@ -2,7 +2,7 @@
     "name": "tejrajs/usps-api",
     "description": "United States Postal Service api",
     "type": "library",
-    homepage": "https://github.com/tejrajs/usps-api/blob/master/README.md",
+    "homepage": "https://github.com/tejrajs/usps-api/blob/master/README.md",
     "keywords": ["yii2","extension","usps","api"],
     "license": "BSD-2-Clause",
     "authors": [
