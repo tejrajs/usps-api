@@ -1,5 +1,7 @@
 <?php
 namespace tejrajs\uspsapi;
+
+use DOMDocument;
 /**
  * Array2XML: A class to convert array in PHP to XML
  * It also takes into account attributes names unlike SimpleXML in PHP
@@ -42,6 +44,7 @@ class XMLParser {
      * @param $format_output
      */
     public static function init($version = '1.0', $encoding = 'UTF-8', $format_output = true) {
+    	
         self::$xml = new DomDocument($version, $encoding);
         self::$xml->formatOutput = $format_output;
 		self::$encoding = $encoding;

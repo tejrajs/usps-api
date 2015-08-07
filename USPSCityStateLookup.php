@@ -1,5 +1,5 @@
 <?php
-namespace tejrajs\uspaapi;
+namespace tejrajs\uspsapi;
 /**
  * Load required classes
  */
