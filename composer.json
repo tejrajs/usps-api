@@ -1,0 +1,23 @@
+{
+    "name": "tejrajs/usps-api",
+    "description": "United States Postal Service api",
+    "type": "library",
+    homepage": "https://github.com/tejrajs/usps-api/blob/master/README.md",
+    "keywords": ["yii2","extension","usps","api"],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Tej Raj Shrestha",
+            "email": "helloteju96@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "tejrajs\\uspsapi\\": ""
+        }
+    }
+    
+}
